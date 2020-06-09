@@ -14,7 +14,10 @@ module.exports = {
       {
         test: /\.css$/,
         use: [
-          'style-loader',
+          {
+            loader: 'style-loader',
+            options: { injectType: 'singletonStyleTag' },
+          },
           { loader: 'css-loader', options: { importLoaders: 1 } },
           'postcss-loader',
         ],
