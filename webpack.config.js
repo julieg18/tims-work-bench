@@ -12,6 +12,10 @@ module.exports = {
   module: {
     rules: [
       {
+        test: /\.(png|jpe?g|gif|svg)$/i,
+        loader: 'file-loader',
+      },
+      {
         test: /\.css$/,
         use: [
           {
@@ -25,10 +29,6 @@ module.exports = {
       {
         test: /\.html$/i,
         loader: 'html-loader',
-      },
-      {
-        test: /\.svg$/,
-        use: 'file-loader',
       },
       {
         test: /\.m?js$/,
