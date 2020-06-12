@@ -1,3 +1,4 @@
 .nav-bar__links_show {
   top: 0;
+  z-index: 1;
 }
