@@ -1,0 +1,24 @@
+.nav-bar__links {
+  position: absolute;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: 100%;
+  left: 0;
+  top: -180px;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  transition: top 0.3s ease-in-out;
+}
+
+@media (min-width: 768px) {
+  .nav-bar__links {
+    position: static;
+    width: initial;
+    height: initial;
+    flex-direction: row;
+  }
+}

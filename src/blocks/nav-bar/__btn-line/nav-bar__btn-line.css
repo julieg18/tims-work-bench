@@ -1,0 +1,8 @@
+.nav-bar__btn-line {
+  height: 2px;
+  width: 35px;
+  margin: 7px 0;
+  background-color: #000;
+  display: block;
+  transition: opacity 0.2s ease-in-out, transform 0.3s ease-in-out;
+}
