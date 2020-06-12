@@ -1,0 +1,17 @@
+@import url(./__title/nav-bar__title.css);
+@import url(./__btn/nav-bar__btn.css);
+@import url(./__btn/_exit/nav-bar__btn_exit.css);
+@import url(./__btn-line/nav-bar__btn-line.css);
+@import url(./__links/nav-bar__links.css);
+@import url(./__links/_show/nav-bar__links_show.css);
+@import url(./__link/nav-bar__link.css);
+@import url(./__link-text/nav-bar__link-text.css);
+@import url(./__link-text/_active/nav-bar__link-text_active.css);
+
+.nav-bar {
+  display: flex;
+  position: relative;
+  align-items: center;
+  padding: 5px 10px;
+  border-bottom: 2px solid #000;
+}
