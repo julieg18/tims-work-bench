@@ -1,0 +1,30 @@
+@import url(./__title/header__title.css);
+@import url(./__title-span/header__title-span.css);
+
+.header {
+  height: 280px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../../images/workbench-background.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media (min-width: 768px) {
+  .header {
+    height: 750px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .header {
+    height: 520px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .header {
+    width: 800px;
+    height: 650px;
+  }
+}

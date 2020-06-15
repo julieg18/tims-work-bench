@@ -1,0 +1,40 @@
+.header__title {
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: #fff;
+  font-size: 4.5rem;
+  line-height: 5.2rem;
+  font-weight: 300;
+  text-align: center;
+  margin: 0;
+  padding-top: calc(140px - 5.2rem);
+}
+
+@media (min-width: 425px) {
+  .header__title {
+    font-size: 5rem;
+    line-height: 5.7rem;
+    padding-top: calc(140px - 5.7rem);
+  }
+}
+
+@media (min-width: 768px) {
+  .header__title {
+    font-size: 9rem;
+    line-height: 9.7rem;
+    padding-top: calc(375px - 9.7rem);
+  }
+}
+
+@media (min-width: 1024px) {
+  .header__title {
+    padding-top: calc(260px - 9.7rem);
+  }
+}
+
+@media (min-width: 1280px) {
+  .header__title {
+    font-size: 10rem;
+    line-height: 10.7rem;
+    padding-top: calc(325px - 10.7rem);
+  }
+}
