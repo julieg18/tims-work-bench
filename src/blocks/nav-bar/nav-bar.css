@@ -10,12 +10,14 @@
 
 .nav-bar {
   display: flex;
-  position: fixed;
+  position: sticky;
   width: calc(100% - 20px);
   background-color: #fff;
   align-items: center;
   padding: 5px 10px;
   border-bottom: 2px solid #000;
+  top: 0;
+  left: 0;
 }
 
 @media (min-width: 1280px) {
