@@ -1,0 +1,22 @@
+@import url(./__text/info__text.css);
+
+.info {
+  margin: 0;
+  margin: 50px 30px;
+}
+
+@media (min-width: 768px) {
+  .info {
+    margin: 100px 150px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .info {
+    display: inline-block;
+    vertical-align: top;
+    width: 319px;
+    height: 650px;
+    margin: 80px 30px 0;
+  }
+}
