@@ -21,12 +21,6 @@
   .header__title {
     font-size: 9rem;
     line-height: 9.7rem;
-    padding-top: calc(375px - 9.7rem);
-  }
-}
-
-@media (min-width: 1024px) {
-  .header__title {
     padding-top: calc(260px - 9.7rem);
   }
 }
