@@ -1,0 +1,7 @@
+.product__nav {
+  margin: 15px 0 0 0;
+  padding: 0;
+  border-bottom: 2.5px solid rgba(0, 0, 0, 0.25);
+  list-style: none;
+  display: flex;
+}
