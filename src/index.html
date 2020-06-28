@@ -21,6 +21,11 @@
           >
         </li>
         <li class="nav-bar__link">
+          <a class="nav-bar__link-text" href="#products"
+            >Available To Purchase</a
+          >
+        </li>
+        <li class="nav-bar__link">
           <a href="#gallery" class="nav-bar__link-text">Gallery</a>
         </li>
         <li class="nav-bar__link">
@@ -34,7 +39,7 @@
         Tim's <span class="header__title-span">Workbench</span>
       </h1>
     </header>
-    <section class="info">
+    <section class="info" id="info">
       <p class="info__text">
         Howdy! I’m Tim Falkenstine and I make handmade real wood workbenches and
         other various furniture. I’m located in Longview TX. Delivery is
@@ -42,5 +47,93 @@
         gallery to see some of my past pieces.
       </p>
     </section>
+    <section class="products" id="products">
+      <h2 class="section-heading">Available To Purchase</h2>
+      <ul class="products__list">
+        <li class="product">
+          <h3 class="product__title">
+            Brand New, Heavy-Duty, Solid-Wood Work Bench
+          </h3>
+          <ul class="product__images">
+            <li>
+              <img
+                src="./images/img-3-1.jpeg"
+                alt="workbench"
+                class="product__image product__image_main"
+              />
+            </li>
+            <li>
+              <img
+                class="product__image product__image_secondary dark"
+                src="./images/img-3-1.jpeg"
+                alt="workbench"
+              />
+            </li>
+            <li>
+              <img
+                class="product__image product__image_secondary"
+                src="./images/img-3-2.jpeg"
+                alt="workbench"
+              />
+            </li>
+            <li>
+              <img
+                class="product__image product__image_secondary"
+                src="./images/img-3-3.jpeg"
+                alt="workbench"
+              />
+            </li>
+            <li>
+              <img
+                class="product__image product__image_secondary"
+                src="./images/img-5-1.jpeg"
+                alt="workbench"
+              />
+            </li>
+          </ul>
+          <ul class="product__prices">
+            <li class="product__price">
+              4ft - $180
+            </li>
+            <li class="product__price">
+              6ft - $240
+            </li>
+            <li class="product__price">
+              8ft - $300
+            </li>
+            <li class="product__price">
+              10ft - $360
+            </li>
+          </ul>
+          <p class="product__description">
+            This is a great bench for a garage or shop and is perfect for a
+            birthday present or anniversary gift! Contact me for custom sizes
+            and delivery options!
+          </p>
+          <div class="product__info">
+            <ul class="product__nav">
+              <li class="product__nav-item product__nav-item_selected">
+                Options
+              </li>
+              <li class="product__nav-item">Details</li>
+            </ul>
+            <ul class="product__texts">
+              <li class="product__text">
+                - Staining (aproximately an additional $50)
+              </li>
+              <li class="product__text">- Casters (80$)</li>
+              <li class="product__text">
+                - A different top (birch plywood tops, one piece solid tops,
+                etc.)
+              </li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </section>
   </body>
+
+  <template id="product__text">
+    <li class="product__text"></li>
+  </template>
 </html>

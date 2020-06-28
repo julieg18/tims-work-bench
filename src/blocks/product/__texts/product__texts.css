@@ -1,0 +1,13 @@
+.product__texts {
+  margin: 15px 10px 0;
+  padding: 0;
+  list-style: none;
+  overflow-y: auto;
+  height: 150px;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.product__texts::-webkit-scrollbar {
+  display: none;
+}

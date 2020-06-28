@@ -1,0 +1,26 @@
+.product__image_secondary {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  margin: 10px 0 0;
+  transition: ease-in-out filter 0.2s;
+}
+
+.product__image_secondary:hover {
+  filter: brightness(0.5);
+  cursor: pointer;
+}
+
+@media (min-width: 375px) {
+  .product__image_secondary {
+    margin: 10px 10px 0 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .product__image_secondary {
+    margin: 10px 10px 0 0;
+    width: 75px;
+    height: 75px;
+  }
+}
