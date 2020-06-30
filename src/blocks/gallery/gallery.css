@@ -2,5 +2,11 @@
 @import url(./__image/gallery__image.css);
 
 .gallery {
-  margin: 100px 20px 0;
+  padding: 50px 20px 0;
+}
+
+@media (min-width: 1024px) {
+  .gallery {
+    padding: 100px 20px 0;
+  }
 }
