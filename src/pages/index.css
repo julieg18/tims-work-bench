@@ -1,5 +1,5 @@
 @import url(https://necolas.github.io/normalize.css/8.0.1/normalize.css);
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Open+Sans:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&family=Open+Sans:wght@300;400;600;700;800&display=swap');
 @import url(../blocks/page/page.css);
 @import url(../blocks/backdrop/backdrop.css);
 @import url(../blocks/backdrop/_show/backdrop_show.css);
@@ -13,3 +13,4 @@
 @import url(../blocks/products/products.css);
 @import url(../blocks/product/product.css);
 @import url(../blocks/gallery/gallery.css);
+@import url(../blocks/contact/contact.css);
