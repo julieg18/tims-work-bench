@@ -1,7 +1,7 @@
 import {
   navButton,
   navLinkList,
-  navBackdrop,
+  navLinksBackdrop,
   navLinks,
 } from '../utils/constants';
 
@@ -66,16 +66,22 @@ function handleScroll() {
   }
 }
 
-function toggleNavList() {
-  navButton.classList.toggle('nav-bar__btn_exit');
-  navLinkList.classList.toggle('nav-bar__links_show');
-  navBackdrop.classList.toggle('backdrop_show');
-}
-
 function removeNavList() {
   navButton.classList.remove('nav-bar__btn_exit');
   navLinkList.classList.remove('nav-bar__links_show');
-  navBackdrop.classList.remove('backdrop_show');
+  navLinksBackdrop.classList.remove('backdrop_show');
+}
+
+function toggleNavList() {
+  navButton.classList.toggle('nav-bar__btn_exit');
+  navLinkList.classList.toggle('nav-bar__links_show');
+  navLinksBackdrop.classList.toggle('backdrop_show');
+}
+
+function checkIfBackdropOverlayWasClicked(e) {
+  if (e.target.classList.contains('backdrop')) {
+    removeNavList();
+  }
 }
 
 window.addEventListener('scroll', handleScroll);
@@ -91,3 +97,4 @@ navLinks.forEach((navLink) => {
   });
 });
 navButton.addEventListener('click', toggleNavList);
+navLinksBackdrop.addEventListener('click', checkIfBackdropOverlayWasClicked);
