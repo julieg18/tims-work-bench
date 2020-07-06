@@ -9,7 +9,7 @@ const product1Details = [
 ];
 const navButton = document.querySelector('.nav-bar__btn');
 const navLinkList = document.querySelector('.nav-bar__links');
-const navBackdrop = document.querySelector('.backdrop_for_nav-links');
+const navLinksBackdrop = document.querySelector('.backdrop_for_nav-links');
 const navLinks = Array.from(document.querySelectorAll('.nav-bar__link-text'));
 
-export { product1Details, navButton, navLinkList, navBackdrop, navLinks };
+export { product1Details, navButton, navLinkList, navLinksBackdrop, navLinks };
