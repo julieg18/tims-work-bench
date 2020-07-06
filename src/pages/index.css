@@ -4,8 +4,6 @@
 @import url(../blocks/backdrop/backdrop.css);
 @import url(../blocks/backdrop/_show/backdrop_show.css);
 @import url(../blocks/backdrop/_for/backdrop_for_nav-links.css);
-@import url(../blocks/dark/dark.css);
-@import url(../blocks/dark/_backdrop/dark_backdrop.css);
 @import url(../blocks/nav-bar/nav-bar.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/info/info.css);
