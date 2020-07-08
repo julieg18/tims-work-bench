@@ -1,2 +1,3 @@
 import '../pages/index.css';
-import './components/navbar';
+import './blocks/navbar';
+import './blocks/products';
