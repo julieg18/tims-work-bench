@@ -4,6 +4,7 @@ import {
   navLinksBackdrop,
   navLinks,
 } from '../utils/constants';
+import { checkIfBackdropOverlayWasClicked } from '../utils/utils';
 
 let lastKnownScrollPos = 0;
 let ticking = false;
@@ -78,12 +79,6 @@ function toggleNavList() {
   navLinksBackdrop.classList.toggle('backdrop_show');
 }
 
-function checkIfBackdropOverlayWasClicked(e) {
-  if (e.target.classList.contains('backdrop')) {
-    removeNavList();
-  }
-}
-
 window.addEventListener('scroll', handleScroll);
 window.addEventListener('resize', setSectionPositions);
 window.addEventListener('load', setSectionPositions);
@@ -97,4 +92,9 @@ navLinks.forEach((navLink) => {
   });
 });
 navButton.addEventListener('click', toggleNavList);
-navLinksBackdrop.addEventListener('click', checkIfBackdropOverlayWasClicked);
+navLinksBackdrop.addEventListener('click', (e) =>
+  checkIfBackdropOverlayWasClicked({
+    el: e.target,
+    closeBackdrop: removeNavList,
+  }),
+);

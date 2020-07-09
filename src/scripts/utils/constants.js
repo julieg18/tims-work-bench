@@ -42,4 +42,21 @@ const productObjs = Array.from(document.querySelectorAll('.product')).map(
   },
 );
 
-export { navButton, navLinkList, navLinksBackdrop, navLinks, productObjs };
+const galleryImages = Array.from(document.querySelectorAll('.gallery__image'));
+const backdropForImage = document.querySelector('.backdrop_for_image');
+const backdropImage = backdropForImage.querySelector('.backdrop__image');
+const backdropForImageButton = backdropForImage.querySelector(
+  '.backdrop__exit-btn',
+);
+
+export {
+  navButton,
+  navLinkList,
+  navLinksBackdrop,
+  navLinks,
+  productObjs,
+  galleryImages,
+  backdropForImage,
+  backdropImage,
+  backdropForImageButton,
+};
