@@ -1,3 +1,3 @@
 # tims-work-bench
-A website for a local carpentry business. I built this website for friend. 
+A website for a local carpentry business.
  * Built with HTML, CSS(BEM nested file structure used) and JavaScript
